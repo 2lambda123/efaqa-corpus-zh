@@ -1,6 +1,6 @@
 # Emotional First Aid Dataset
 
-[![Python 3](https://img.shields.io/badge/python-3-blue.svg)](https://www.python.org/downloads/release/python-360/) [![Python 2](https://img.shields.io/badge/python-2-blue.svg)](https://www.python.org/downloads/release/python-2/) [![Latest Version](https://pypip.in/version/efaqa-corpus-zh/badge.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI download month](https://img.shields.io/pypi/dm/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI version shields.io](https://img.shields.io/pypi/v/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI license](https://img.shields.io/pypi/l/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI status](https://img.shields.io/pypi/status/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/)
 
 心理咨询问答语料库，仅限研究用途。
 
