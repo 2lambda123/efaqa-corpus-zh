@@ -6,19 +6,24 @@
 
 |                                                                           |                                                                                                       |
 | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| [数据集介绍](https://github.com/chatopera/efaqa-corpus-zh#数据集介绍)     | [项目背景](https://github.com/chatopera/efaqa-corpus-zh#项目背景)                                     |
+| [为什么发布这个语料库](https://github.com/chatopera/efaqa-corpus-zh#为什么发布这个语料库)     | [语料库介绍](https://github.com/chatopera/efaqa-corpus-zh#语料库介绍)                                    |
 | [安装使用](https://github.com/chatopera/efaqa-corpus-zh#安装使用)         | [语料文件](https://github.com/chatopera/efaqa-corpus-zh#语料文件)                                     |
 | [在线数据平台](https://github.com/chatopera/efaqa-corpus-zh#在线数据平台) | [心理问答 API](https://github.com/chatopera/efaqa-corpus-zh#%E5%BF%83%E7%90%86%E9%97%AE%E7%AD%94-api) |
-| [标注志愿者](https://github.com/chatopera/efaqa-corpus-zh#标注志愿者)     | [媒体报导](https://github.com/chatopera/efaqa-corpus-zh#媒体报导)                                     |
+| [标注贡献者](https://github.com/chatopera/efaqa-corpus-zh#标注贡献者)     | [媒体报导](https://github.com/chatopera/efaqa-corpus-zh#媒体报导)                                     |
 | [声明](https://github.com/chatopera/efaqa-corpus-zh#声明)                 | [联系我们](https://github.com/chatopera/efaqa-corpus-zh#联系我们)                                     |
 
-## 为什么发布这个语料库
+# 为什么发布这个语料库
 
-心理咨询中应用人工智能，是我们认为非常有意义的一个探索。我们愿意和更多人合作，把目前领先的人工智能技术，在心理咨询不同场景下落地。扣门的，就给他开门，愿每个人都有自己的心理咨询师。
+<p align="center">
+  <b>AI 心理陪伴语料标注培训，人工智能助力心理咨询 | Chatopera</b><br>
+  <a href="https://www.bilibili.com/video/BV1nr4y1p7XF/" target="_blank">
+      <img src="https://user-images.githubusercontent.com/3538629/79977726-4e9a7c80-84d1-11ea-9d79-495849b03ab3.png" width="900">
+  </a>
+</p>
 
-<p align="center">-- <a href="https://mp.weixin.qq.com/s/nYXfWp-J2dB9I-iHLWJEuw">派特心理</a></p>
+其他播放地址：[YouTube](https://www.youtube.com/watch?v=M7TwlbIeOxw)
 
-# 数据集介绍
+# 语料库介绍
 
 心理咨询问答语料库（以下也称为“**数据集**”，“**语料库**”）是为应用人工智能技术于心理咨询领域制作的语料。据我们所知，这是心理咨询领域首个开放的 QA 语料库，包括 20,000 条心理咨询数据，也是公开的最大的中文心理咨询对话语料。数据集内容丰富，不但具备多轮对话内容，也有分类等信息，制作过程耗费大量时间和精力，比如标注过程是面向多轮对话，平均每条标记耗时 1 分钟。
 
@@ -229,16 +234,7 @@
 | knowledge | 是否带有知识，含知识内容有助于开导咨询者 |
 | negative  | 负面回复，对咨询者起负面作用             |
 
-## 项目背景
-
-为了帮助更好应用该数据集，特别制作了一个视频帮助了解项目背景、标注设计和标注过程。
-
-<p align="center">
-  <b>心理咨询AI助手|派特心理</b><br>
-  <a href="https://ke.qq.com/course/2026518?taid=8029943873072150&tuin=6780672d" target="_blank">
-      <img src="https://user-images.githubusercontent.com/3538629/79977726-4e9a7c80-84d1-11ea-9d79-495849b03ab3.png" width="900">
-  </a>
-</p>
+## 
 
 ## 安装使用
 
@@ -291,13 +287,11 @@ https://github.com/chatopera/efaqa-bot-demo
 
 ![](https://github.com/chatopera/efaqa-bot-demo/raw/master/assets/1.jpg)
 
-## 标注志愿者
+## 标注贡献者
 
-本语料有相当一部分是网络招募志愿者完成，而且不乏心理学专业人士，或者对心理学有浓厚兴趣的爱心人士，出于对数据质量的严格要求，我们的招募过程是认真对待的，加入的志愿者也是非常积极的，在此特别感谢他们的贡献！他们不辞辛苦，愿意为人工智能技术应用于心理咨询行业日夜工作，终于有了这个数据集！
+出于对数据质量的严格要求，我们的招募过程是认真对待的，本语料有相当一部分是网络招募志愿者完成，而且不乏心理学专业人士，或者对心理学有浓厚兴趣的爱心人士，加入的志愿者也是非常积极的，不辞辛苦，愿意为人工智能技术应用于心理咨询行业日夜工作，终于有了这个数据集！
 
 志愿者成员信息: [https://github.com/chatopera/efaqa-corpus-zh/wiki/Volunteers](https://github.com/chatopera/efaqa-corpus-zh/wiki/Volunteers)，大家分布在中国大陆、法国、美国和加拿大，标注工作占据了大家很多闲暇时间和休息时间，对此表达特别敬意！
-
-同时，现在我们依然在招募志愿者，招募介绍 [https://github.com/chatopera/efaqa-corpus-zh/wiki](https://github.com/chatopera/efaqa-corpus-zh/wiki)。
 
 ## 媒体报导
 
