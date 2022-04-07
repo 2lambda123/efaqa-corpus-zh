@@ -1,3 +1,9 @@
+<div align=right>
+
+[首页](https://github.com/chatopera/efa.corpus.osc)　|　[媒体报道](https://mp.weixin.qq.com/s/AyfWPBRQszKLCvT-YEFxMw)　|　[未来之路](https://zhuanlan.zhihu.com/p/128632328)
+
+</div>
+
 # Emotional First Aid Dataset
 
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI download month](https://img.shields.io/pypi/dm/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI version shields.io](https://img.shields.io/pypi/v/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI license](https://img.shields.io/pypi/l/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI status](https://img.shields.io/pypi/status/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/)
@@ -23,14 +29,6 @@
 </p>
 
 其他播放地址：[YouTube](https://www.youtube.com/watch?v=M7TwlbIeOxw)
-
-## 媒体报导
-
-[52NLP: Emotional First Aid Dataset, 心理咨询问答语料库](http://www.52nlp.cn/)
-
-[开源社：上线！Chatopera 首发开源心理咨询对话语料库](https://mp.weixin.qq.com/s/AyfWPBRQszKLCvT-YEFxMw)
-
-[通向心理咨询的未来之路|派特心理](https://zhuanlan.zhihu.com/p/128632328)
 
 # 语料库介绍
 
