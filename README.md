@@ -1,15 +1,17 @@
 # Emotional First Aid Dataset
 
+[![Python 3](https://img.shields.io/badge/python-3-blue.svg)](https://www.python.org/downloads/release/python-360/) [![Python 2](https://img.shields.io/badge/python-2-blue.svg)](https://www.python.org/downloads/release/python-2/) [![Latest Version](https://pypip.in/version/efaqa-corpus-zh/badge.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/)
+
 心理咨询问答语料库，仅限研究用途。
 
-[https://github.com/chatopera/efaqa-corpus-zh](https://github.com/chatopera/efaqa-corpus-zh)
+[https://github.com/chatopera/efa.corpus.osc](https://github.com/chatopera/efa.corpus.osc)
 
 |                                                                           |                                                                                                       |
 | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| [为什么以及怎样发布了这个语料库](https://github.com/chatopera/efaqa-corpus-zh#为什么以及怎样发布了这个语料库)     | [语料库介绍](https://github.com/chatopera/efaqa-corpus-zh#语料库介绍)                                    |
-| [安装使用](https://github.com/chatopera/efaqa-corpus-zh#安装使用)         | [语料文件](https://github.com/chatopera/efaqa-corpus-zh#语料文件)                                     |
-| [在线数据平台](https://github.com/chatopera/efaqa-corpus-zh#在线数据平台) | [标注贡献者](https://github.com/chatopera/efaqa-corpus-zh#标注贡献者)  |
-| [声明](https://github.com/chatopera/efaqa-corpus-zh#声明)                 | [商业服务](https://github.com/chatopera/efaqa-corpus-zh#商业服务)                                     |
+| [为什么以及怎样发布了这个语料库](#为什么以及怎样发布了这个语料库)     | [语料库介绍](#语料库介绍)                                    |
+| [安装使用](#安装使用)         | [语料文件](#语料文件)                                     |
+| [在线数据平台](#在线数据平台) | [标注贡献者](#标注贡献者)  |
+| [声明](#声明)                 | [商业服务](#商业服务)                                     |
 
 # 为什么以及怎样发布了这个语料库
 
@@ -36,7 +38,7 @@
 
 数据集由斯坦福大学，UCLA 和台湾辅仁大学临床心理学等心理学专业人士参与建设，并由 Chatopera 和诸多志愿者合作完成。
 
-数据文件位置[efaqa-corpus-zh.utf8.gz](https://github.com/chatopera/efaqa-corpus-zh/blob/master/data/efaqa-corpus-zh.utf8.gz)，该文件为 Gzip 压缩，utf8 编码，每行一条数据，每条为 JSON 格式字符串，格式如下：
+数据文件位置[efaqa-corpus-zh.utf8.gz](https://github.com/chatopera/efa.corpus.osc/blob/master/data/efaqa-corpus-zh.utf8.gz)，该文件为 Gzip 压缩，utf8 编码，每行一条数据，每条为 JSON 格式字符串，格式如下：
 
 <table>
   <tr>
