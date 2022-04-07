@@ -309,9 +309,9 @@ print(l[0]["title"])
 
 Emotional First Aid Dataset, Chatopera Inc., <https://github.com/chatopera/efa.corpus.osc>, Apr. 22th, 2020
 
-## GPL 3.0 许可协议
+## 许可协议
 
-[Emotional First Aid Dataset, only for Research.](./LICENSE)
+用户使用许可协议：[Emotional First Aid Dataset License, GPL 3.0](./LICENSE)
 
 ## 商业服务
 
