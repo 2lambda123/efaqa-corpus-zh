@@ -271,22 +271,6 @@ print(l[0]["title"])
 
 [天池实验室](https://tianchi.aliyun.com/dataset/dataDetail?dataId=61868)
 
-## 心理问答 API
-
-作为心理咨询平台，心理健康服务开发者，如何获得智能问答服务呢？如果不想从零开始，有没有成熟的方案呢？我们称之为`心理问答 API`。伴随着我们标注数据量的累积，我们也在完善利用这些数据研发的对话服务，现在已经在`Chatopera云服务`内上线，通过使用 SDK，几行代码立刻接入`心理问答 API`。
-
-`心理问答 API` 包括`单轮对话`和`多轮对话`，详细使用文档参考[https://docs.chatopera.com/products/psych-assistant/api.html](https://docs.chatopera.com/products/psych-assistant/api.html)。
-
-![](./assets/1.jpg)
-
-[心理问答机器人示例程序](https://github.com/chatopera/efaqa-bot-demo)：
-
-```
-https://github.com/chatopera/efaqa-bot-demo
-```
-
-![](https://github.com/chatopera/efaqa-bot-demo/raw/master/assets/1.jpg)
-
 ## 标注贡献者
 
 出于对数据质量的严格要求，我们的招募过程是认真对待的，本语料有相当一部分是网络招募志愿者完成，而且不乏心理学专业人士，或者对心理学有浓厚兴趣的爱心人士，加入的志愿者也是非常积极的，不辞辛苦，愿意为人工智能技术应用于心理咨询行业日夜工作，终于有了这个数据集！
@@ -354,70 +338,10 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 [co-banner-image]: https://user-images.githubusercontent.com/3538629/42383104-da925942-8168-11e8-8195-868d5fcec170.png
 [co-url]: https://www.chatopera.com
 
-## Chatopera 云服务
+## AI 心理陪伴软件产品
 
-[https://bot.chatopera.com/](https://bot.chatopera.com/)
+作为心理咨询平台，心理健康服务开发者，如何获得智能问答服务呢？如果不想从零开始，有没有成熟的方案呢？我们称之为 `AI 心理陪伴` 服务。伴随着我们标注数据量的累积，我们也在完善利用这些数据研发的对话服务，为企业或组织提供商业化支持。
 
-[Chatopera 云服务](https://bot.chatopera.com)是一站式实现聊天机器人的云服务，按接口调用次数计费。Chatopera 云服务是 [Chatopera 机器人平台](https://docs.chatopera.com/products/chatbot-platform/index.html)的软件即服务实例。在云计算基础上，Chatopera 云服务属于**聊天机器人即服务**的云服务。
-
-Chatopera 机器人平台包括知识库、多轮对话、意图识别和语音识别等组件，标准化聊天机器人开发，支持企业 OA 智能问答、HR 智能问答、智能客服和网络营销等场景。企业 IT 部门、业务部门借助 Chatopera 云服务快速让聊天机器人上线！
-
-<details>
-<summary>展开查看 Chatopera 云服务的产品截图</summary>
-<p>
-
-<p align="center">
-  <b>自定义词典</b><br>
-  <img src="https://static-public.chatopera.com/assets/images/64530072-da92d600-d33e-11e9-8656-01c26caff4f9.png" width="800">
-</p>
-
-<p align="center">
-  <b>自定义词条</b><br>
-  <img src="https://static-public.chatopera.com/assets/images/64530091-e41c3e00-d33e-11e9-9704-c07a2a02b84e.png" width="800">
-</p>
-
-<p align="center">
-  <b>创建意图</b><br>
-  <img src="https://static-public.chatopera.com/assets/images/64530169-12018280-d33f-11e9-93b4-9db881cf4dd5.png" width="800">
-</p>
-
-<p align="center">
-  <b>添加说法和槽位</b><br>
-  <img src="https://static-public.chatopera.com/assets/images/64530187-20e83500-d33f-11e9-87ec-a0241e3dac4d.png" width="800">
-</p>
-
-<p align="center">
-  <b>训练模型</b><br>
-  <img src="https://static-public.chatopera.com/assets/images/64530235-33626e80-d33f-11e9-8d07-fa3ae417fd5d.png" width="800">
-</p>
-
-<p align="center">
-  <b>测试对话</b><br>
-  <img src="https://static-public.chatopera.com/assets/images/64530253-3d846d00-d33f-11e9-81ea-86e6d47020d8.png" width="800">
-</p>
-
-<p align="center">
-  <b>机器人画像</b><br>
-  <img src="https://static-public.chatopera.com/assets/images/64530312-6442a380-d33f-11e9-869c-85fb6a835a97.png" width="800">
-</p>
-
-<p align="center">
-  <b>系统集成</b><br>
-  <img src="https://static-public.chatopera.com/assets/images/64530281-4ecd7980-d33f-11e9-8def-c53251f30138.png" width="800">
-</p>
-
-<p align="center">
-  <b>聊天历史</b><br>
-  <img src="https://static-public.chatopera.com/assets/images/64530295-5856e180-d33f-11e9-94d4-db50481b2d8e.png" width="800">
-</p>
-
-</p>
-</details>
+![](./assets/1.jpg)
 
 
-<p align="center">
-  <b>立即使用</b><br>
-  <a href="https://bot.chatopera.com" target="_blank">
-      <img src="https://static-public.chatopera.com/assets/images/64531083-3199aa80-d341-11e9-86cd-3a3ed860b14b.png" width="800">
-  </a>
-</p>
