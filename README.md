@@ -6,7 +6,7 @@
 
 # Emotional First Aid Dataset
 
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI download month](https://img.shields.io/pypi/dm/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI version shields.io](https://img.shields.io/pypi/v/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI license](https://img.shields.io/pypi/l/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI status](https://img.shields.io/pypi/status/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI download month](https://img.shields.io/pypi/dm/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI version shields.io](https://img.shields.io/pypi/v/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/) [![PyPI license](https://img.shields.io/pypi/l/efaqa-corpus-zh.svg)](https://pypi.python.org/pypi/efaqa-corpus-zh/)
 
 心理咨询问答语料库，仅限研究用途。
 
