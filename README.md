@@ -6,13 +6,12 @@
 
 |                                                                           |                                                                                                       |
 | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| [为什么发布这个语料库](https://github.com/chatopera/efaqa-corpus-zh#为什么发布这个语料库)     | [语料库介绍](https://github.com/chatopera/efaqa-corpus-zh#语料库介绍)                                    |
+| [为什么以及怎样发布了这个语料库](https://github.com/chatopera/efaqa-corpus-zh#为什么以及怎样发布了这个语料库)     | [语料库介绍](https://github.com/chatopera/efaqa-corpus-zh#语料库介绍)                                    |
 | [安装使用](https://github.com/chatopera/efaqa-corpus-zh#安装使用)         | [语料文件](https://github.com/chatopera/efaqa-corpus-zh#语料文件)                                     |
-| [在线数据平台](https://github.com/chatopera/efaqa-corpus-zh#在线数据平台) | [心理问答 API](https://github.com/chatopera/efaqa-corpus-zh#%E5%BF%83%E7%90%86%E9%97%AE%E7%AD%94-api) |
-| [标注贡献者](https://github.com/chatopera/efaqa-corpus-zh#标注贡献者)     | [媒体报导](https://github.com/chatopera/efaqa-corpus-zh#媒体报导)                                     |
-| [声明](https://github.com/chatopera/efaqa-corpus-zh#声明)                 | [联系我们](https://github.com/chatopera/efaqa-corpus-zh#联系我们)                                     |
+| [在线数据平台](https://github.com/chatopera/efaqa-corpus-zh#在线数据平台) | [标注贡献者](https://github.com/chatopera/efaqa-corpus-zh#标注贡献者)  |
+| [声明](https://github.com/chatopera/efaqa-corpus-zh#声明)                 | [商业服务](https://github.com/chatopera/efaqa-corpus-zh#商业服务)                                     |
 
-# 为什么发布这个语料库
+# 为什么以及怎样发布了这个语料库
 
 <p align="center">
   <b>AI 心理陪伴语料标注培训，人工智能助力心理咨询 | Chatopera</b><br>
@@ -22,6 +21,14 @@
 </p>
 
 其他播放地址：[YouTube](https://www.youtube.com/watch?v=M7TwlbIeOxw)
+
+## 媒体报导
+
+[52NLP: Emotional First Aid Dataset, 心理咨询问答语料库](http://www.52nlp.cn/)
+
+[开源社：上线！Chatopera 首发开源心理咨询对话语料库](https://mp.weixin.qq.com/s/AyfWPBRQszKLCvT-YEFxMw)
+
+[通向心理咨询的未来之路|派特心理](https://zhuanlan.zhihu.com/p/128632328)
 
 # 语料库介绍
 
@@ -234,13 +241,13 @@
 | knowledge | 是否带有知识，含知识内容有助于开导咨询者 |
 | negative  | 负面回复，对咨询者起负面作用             |
 
-## 
+##
 
 ## 安装使用
 
 ### Python
 
-为了方便使用，数据集发布到 [https://pypi.org/project/efaqa-corpus-zh/](https://pypi.org/project/efaqa-corpus-zh/) 上，使用 `pip` 下载安装。
+为了方便使用，数据集发布到 [https://github.com/chatopera/efa.corpus.osc](https://github.com/chatopera/efa.corpus.osc) 上，使用 `pip` 下载安装。
 
 ```
 pip install efaqa-corpus-zh
@@ -263,7 +270,7 @@ print(l[0]["title"])
 
 ## 在线数据平台
 
-为帮助大家更好的使用数据集，我们也录入到不同在线数据平台。
+为帮助大家更好的使用数据集，我们也上线到不同在线数据平台，以下为部分数据平台链接。
 
 [Kaggle](https://www.kaggle.com/samurais/emotional-first-aid-dataset)
 
@@ -275,21 +282,19 @@ print(l[0]["title"])
 
 出于对数据质量的严格要求，我们的招募过程是认真对待的，本语料有相当一部分是网络招募志愿者完成，而且不乏心理学专业人士，或者对心理学有浓厚兴趣的爱心人士，加入的志愿者也是非常积极的，不辞辛苦，愿意为人工智能技术应用于心理咨询行业日夜工作，终于有了这个数据集！
 
-志愿者成员信息: [https://github.com/chatopera/efaqa-corpus-zh/wiki/Volunteers](https://github.com/chatopera/efaqa-corpus-zh/wiki/Volunteers)，大家分布在中国大陆、法国、美国和加拿大，标注工作占据了大家很多闲暇时间和休息时间，对此表达特别敬意！
+志愿者成员分布在中国大陆、法国、美国和加拿大，标注工作占据了大家很多闲暇时间和休息时间，对此表达特别敬意！
 
-## 媒体报导
+以下为标注语料的志愿者：
 
-[52NLP: Emotional First Aid Dataset, 心理咨询问答语料库](http://www.52nlp.cn/)
+| 名字 | 邮箱 |
+| --- | --- |
+| 陈怡, Christy Chan | N/A |
 
-[开源社：上线！Chatopera 首发开源心理咨询对话语料库](https://mp.weixin.qq.com/s/AyfWPBRQszKLCvT-YEFxMw)
-
-[通向心理咨询的未来之路|派特心理](https://zhuanlan.zhihu.com/p/128632328)
-
-[派特心理：招募心理咨询语料标注志愿者](https://zhuanlan.zhihu.com/p/116508541)
+【注】非全部志愿者，以上为经过同意后公开的信息。
 
 ## 声明
 
-### 声明 1:
+### 声明 1
 
 本数据集使用在线心理咨询数据清洗、脱敏和标注制作，数据及代码发布使用 GPL 3.0 许可协议。数据仅限于研究用途，如果在发布的任何媒体、期刊、杂志或博客等内容时，必须注明引用和地址。无授权商业用途，追究版权。
 
@@ -298,50 +303,36 @@ print(l[0]["title"])
   author = {Hai Liang Wang, Zhi Zhi Wu, Jia Yuan Lang},
   title = {派特心理：心理咨询问答语料库},
   year = 2020,
-  url = {https://github.com/chatopera/efaqa-corpus-zh},
+  url = {https://github.com/chatopera/efa.corpus.osc},
   urldate = {2020-04-22}
 }
 ```
 
-### 声明 2:
+### 声明 2
 
 语料库为主观标注，鉴于心理咨询的严肃性和重要性，语料制作时尽可能保证数据的准确性，但是无法保证 100%准确，对于因数据内容不当产生的后果，本团队不承担任何法律责任。
 
-Emotional First Aid Dataset, Chatopera Inc., https://github.com/chatopera/efaqa-corpus-zh, Apr. 22th, 2020
+Emotional First Aid Dataset, Chatopera Inc., <https://github.com/chatopera/efa.corpus.osc>, Apr. 22th, 2020
 
 ## GPL 3.0 许可协议
 
-Emotional First Aid Dataset, only for Research.
-Copyright (C) 2020 北京华夏春松科技有限公司 <https://chatopera.com>
+[Emotional First Aid Dataset, only for Research.](./LICENSE)
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+## 商业服务
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+### AI 心理陪伴软件产品
 
-You should have received a copy of the GNU General Public License
-along with this program. If not, see <http://www.gnu.org/licenses/>.
+作为心理咨询平台，心理健康服务开发者，如何获得智能问答服务呢？如果不想从零开始，有没有成熟的方案呢？我们称之为 `AI 心理陪伴` 服务。伴随着我们标注数据量的累积，我们也在完善利用这些数据研发的对话服务，为企业或组织提供商业化支持。
 
-## 联系我们
+![Chat](./assets/1.jpg)
 
-获得更多数据用于研究或商业产品等事项
+![Workflow](./assets/2.jpg)
 
-联系方式查看[https://www.chatopera.com/mail.html](https://www.chatopera.com/mail.html)。
+### 联系方式
+
+获得更多数据用于研究或商业产品等事项；联系方式查看 [https://www.chatopera.com/mail.html](https://www.chatopera.com/mail.html)。
 
 [![chatoper banner][co-banner-image]][co-url]
 
 [co-banner-image]: https://user-images.githubusercontent.com/3538629/42383104-da925942-8168-11e8-8195-868d5fcec170.png
 [co-url]: https://www.chatopera.com
-
-## AI 心理陪伴软件产品
-
-作为心理咨询平台，心理健康服务开发者，如何获得智能问答服务呢？如果不想从零开始，有没有成熟的方案呢？我们称之为 `AI 心理陪伴` 服务。伴随着我们标注数据量的累积，我们也在完善利用这些数据研发的对话服务，为企业或组织提供商业化支持。
-
-![](./assets/1.jpg)
-
-
