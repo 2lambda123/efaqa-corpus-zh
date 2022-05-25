@@ -10,6 +10,47 @@
 
 心理咨询问答语料库，仅限研究用途。
 
+心理咨询问答语料库（以下也称为“**数据集**”，“**语料库**”）是为应用人工智能技术于心理咨询领域制作的语料。据我们所知，这是心理咨询领域首个开放的 QA 语料库，包括 20,000 条心理咨询数据，也是**迄今公开的最大的中文心理咨询对话语料**(发稿日期 2022-04-07)。数据集内容丰富，不但具备多轮对话内容，也有分类等信息，制作过程耗费大量时间和精力，比如标注过程是面向多轮对话，平均每条标记耗时超过 1 分钟。
+
+数据集由斯坦福大学，UCLA 和台湾辅仁大学临床心理学等心理学专业人士参与建设，并由 Chatopera 和诸多志愿者合作完成。
+
+|                               |                           |
+| ----------------------------- | ------------------------- |
+| [语料库介绍](#语料库介绍)     | [安装使用](#安装使用)     |
+| [在线数据平台](#在线数据平台) | [标注贡献者](#标注贡献者) |
+| [声明](#声明)                 | [商业服务](#商业服务)     |
+
+## 安装使用
+
+### Python
+
+为了方便使用，数据集发布到 [https://github.com/chatopera/efa.corpus.osc](https://github.com/chatopera/efa.corpus.osc) 上，使用 `pip` 下载安装。
+
+```
+pip install efaqa-corpus-zh
+```
+
+演示代码
+
+```
+import efaqa_corpus_zh
+l = list(efaqa_corpus_zh.load())
+print("size: %s" % len(l))
+print(l[0]["title"])
+```
+
+初次执行 `load` 接口，会下载数据，数据在 Github 上，请确保网络可以访问到[https://github.com](https://github.com)。下载速度取决于网络质量，目前数据集压缩包大小~8MB。
+
+### 语料文件
+
+如果您使用其它编程语言，那么直接先下载数据文件[efaqa-corpus-zh.utf8.gz](https://github.com/chatopera/efaqa-corpus-zh/blob/master/data/efaqa-corpus-zh.utf8.gz)，然后使用 Gzip 解压工具解压，得到文本文件，然后按行读取。
+
+## 在线数据平台
+
+为帮助大家更好的使用数据集，我们也上线到不同在线数据平台，以下为部分数据平台链接。
+
+[Kaggle](https://www.kaggle.com/samurais/emotional-first-aid-dataset) | [Baidu AI Studio](https://aistudio.baidu.com/aistudio/datasetdetail/31443) | [天池实验室](https://tianchi.aliyun.com/dataset/dataDetail?dataId=61868)
+
 # 为什么以及怎样发布了这个语料库
 
 <p align="center">
@@ -21,17 +62,7 @@
 
 其他播放地址：[YouTube](https://www.youtube.com/watch?v=M7TwlbIeOxw)
 
-|                                                                           |                                                                                                       |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-|    [语料库介绍](#语料库介绍)      | [安装使用](#安装使用)                                |
-| [在线数据平台](#在线数据平台) | [标注贡献者](#标注贡献者)  |
-| [声明](#声明)                 | [商业服务](#商业服务)                                     |
-
-# 语料库介绍
-
-心理咨询问答语料库（以下也称为“**数据集**”，“**语料库**”）是为应用人工智能技术于心理咨询领域制作的语料。据我们所知，这是心理咨询领域首个开放的 QA 语料库，包括 20,000 条心理咨询数据，也是**迄今公开的最大的中文心理咨询对话语料**(发稿日期 2022-04-07)。数据集内容丰富，不但具备多轮对话内容，也有分类等信息，制作过程耗费大量时间和精力，比如标注过程是面向多轮对话，平均每条标记耗时超过 1 分钟。
-
-数据集由斯坦福大学，UCLA 和台湾辅仁大学临床心理学等心理学专业人士参与建设，并由 Chatopera 和诸多志愿者合作完成。
+## 数据格式
 
 数据文件位置[efaqa-corpus-zh.utf8.gz](https://github.com/chatopera/efa.corpus.osc/blob/master/data/efaqa-corpus-zh.utf8.gz)，该文件为 Gzip 压缩，utf8 编码，每行一条数据，每条为 JSON 格式字符串，格式如下：
 
@@ -170,7 +201,7 @@
 }
 ```
 
-## 话题标签
+## 数据标注
 
 一条数据中，`title`和`description`是咨询者咨询的初始信息，话题标签是基于二者将咨询问题进行分类，分类包含三个维度：`S1` 烦恼类型；`S2` 心理疾病；`S3` SOS。其中，`S`代表`severity`，三个维度体现心理问题的严重程度依次加重。**需要强调的是**, 其中一些项目需要临床医学鉴定，数据集所使用概念，均代表**疑似**，比如我们标记了一个话题分类为*抑郁症*，实际上是指*疑似抑郁症*，该声明不代表我们的工作不认真，而是严格的判断的难度以及出于严谨性的考虑。
 
@@ -238,39 +269,6 @@
 | knowledge | 是否带有知识，含知识内容有助于开导咨询者 |
 | negative  | 负面回复，对咨询者起负面作用             |
 
-##
-
-## 安装使用
-
-### Python
-
-为了方便使用，数据集发布到 [https://github.com/chatopera/efa.corpus.osc](https://github.com/chatopera/efa.corpus.osc) 上，使用 `pip` 下载安装。
-
-```
-pip install efaqa-corpus-zh
-```
-
-演示代码
-
-```
-import efaqa_corpus_zh
-l = list(efaqa_corpus_zh.load())
-print("size: %s" % len(l))
-print(l[0]["title"])
-```
-
-初次执行 `load` 接口，会下载数据，数据在 Github 上，请确保网络可以访问到[https://github.com](https://github.com)。下载速度取决于网络质量，目前数据集压缩包大小~8MB。
-
-### 语料文件
-
-如果您使用其它编程语言，那么直接先下载数据文件[efaqa-corpus-zh.utf8.gz](https://github.com/chatopera/efaqa-corpus-zh/blob/master/data/efaqa-corpus-zh.utf8.gz)，然后使用 Gzip 解压工具解压，得到文本文件，然后按行读取。
-
-## 在线数据平台
-
-为帮助大家更好的使用数据集，我们也上线到不同在线数据平台，以下为部分数据平台链接。
-
-[Kaggle](https://www.kaggle.com/samurais/emotional-first-aid-dataset) | [Baidu AI Studio](https://aistudio.baidu.com/aistudio/datasetdetail/31443) | [天池实验室](https://tianchi.aliyun.com/dataset/dataDetail?dataId=61868)
-
 ## 标注贡献者
 
 出于对数据质量的严格要求，我们的招募过程是认真对待的，本语料有相当一部分是网络招募志愿者完成，而且不乏心理学专业人士，或者对心理学有浓厚兴趣的爱心人士，加入的志愿者也是非常积极的，不辞辛苦，愿意为人工智能技术应用于心理咨询行业日夜工作，终于有了这个数据集！
@@ -279,9 +277,9 @@ print(l[0]["title"])
 
 以下为标注语料的志愿者：
 
-| 名字 | 邮箱 |
-| --- | --- |
-| 陈怡, Christy Chan | N/A |
+| 名字               | 邮箱 |
+| ------------------ | ---- |
+| 陈怡, Christy Chan | N/A  |
 
 【注】非全部志愿者，以上为经过同意后公开的信息。
 

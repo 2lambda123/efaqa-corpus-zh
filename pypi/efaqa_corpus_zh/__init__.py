@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #===============================================================================
 #
-# Copyright (c) 2020 <> All Rights Reserved
+# Copyright (c) 2020-2022 Chatopera Inc. <https://www.chatopera.com> All Rights Reserved
 #
 #
 # File: /Users/hain/chatopera/efaqa-corpus-zh/app/sample.py
@@ -17,6 +17,7 @@
 __copyright__ = "Copyright (c) 2020 Chatopera Inc <https://chatopera.com>. All Rights Reserved"
 __author__ = "Hai Liang Wang"
 __date__ = "2020-04-22:09:40:24"
+__version__ = 0.3
 
 import os, sys
 curdir = os.path.dirname(os.path.abspath(__file__))
@@ -36,6 +37,12 @@ import gzip
 CORPUS_URL = os.environ.get("EFA_CORPUS_URL", "https://github.com/chatopera/efaqa-corpus-zh/raw/master/data/efaqa-corpus-zh.utf8.gz")
 CORPUS_DATA_PATH = os.path.join(curdir, "data", "efaqa-corpus-zh.utf8.gz")
 
+'''
+Sponsorship
+'''
+print("\n Emotional First Aid Dataset: v%s, Project home: %s" % (__version__, "https://github.com/chatopera/efa-corpus-zh"))
+print("\n Project Sponsored by Chatopera")
+print("\n  deliver your chatbots with Chatopera Cloud Services --> https://bot.chatopera.com\n")
 
 try:
     from smart_open import smart_open
