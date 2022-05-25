@@ -17,7 +17,7 @@
 __copyright__ = "Copyright (c) 2020 Chatopera Inc <https://chatopera.com>. All Rights Reserved"
 __author__ = "Hai Liang Wang"
 __date__ = "2020-04-22:09:40:24"
-__version__ = 0.3
+__version__ = 0.5
 
 import os, sys
 curdir = os.path.dirname(os.path.abspath(__file__))
@@ -40,7 +40,7 @@ CORPUS_DATA_PATH = os.path.join(curdir, "data", "efaqa-corpus-zh.utf8.gz")
 '''
 Sponsorship
 '''
-print("\n Emotional First Aid Dataset: v%s, Project home: %s" % (__version__, "https://github.com/chatopera/efa-corpus-zh"))
+print("\n Emotional First Aid Dataset: v%s, Project home: %s" % (__version__, "https://github.com/chatopera/efaqa-corpus-zh"))
 print("\n Project Sponsored by Chatopera")
 print("\n  deliver your chatbots with Chatopera Cloud Services --> https://bot.chatopera.com\n")
 
