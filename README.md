@@ -1,6 +1,6 @@
 <div align=right>
 
-[首页](https://github.com/chatopera/efa.corpus.osc)　|　[媒体报道](https://mp.weixin.qq.com/s/AyfWPBRQszKLCvT-YEFxMw)　|　[未来之路](https://zhuanlan.zhihu.com/p/128632328)
+[首页](https://github.com/chatopera/efa-corpus-zh)　|　[媒体报道](https://mp.weixin.qq.com/s/AyfWPBRQszKLCvT-YEFxMw)　|　[未来之路](https://zhuanlan.zhihu.com/p/128632328)
 
 </div>
 
@@ -24,7 +24,7 @@
 
 ### Python
 
-为了方便使用，数据集发布到 [https://github.com/chatopera/efa.corpus.osc](https://github.com/chatopera/efa.corpus.osc) 上，使用 `pip` 下载安装。
+为了方便使用，数据集发布到 [https://github.com/chatopera/efa-corpus-zh](https://github.com/chatopera/efa-corpus-zh) 上，使用 `pip` 下载安装。
 
 ```
 pip install efaqa-corpus-zh
@@ -64,7 +64,7 @@ print(l[0]["title"])
 
 ## 数据格式
 
-数据文件位置[efaqa-corpus-zh.utf8.gz](https://github.com/chatopera/efa.corpus.osc/blob/master/data/efaqa-corpus-zh.utf8.gz)，该文件为 Gzip 压缩，utf8 编码，每行一条数据，每条为 JSON 格式字符串，格式如下：
+数据文件位置[efaqa-corpus-zh.utf8.gz](https://github.com/chatopera/efa-corpus-zh/blob/master/data/efaqa-corpus-zh.utf8.gz)，该文件为 Gzip 压缩，utf8 编码，每行一条数据，每条为 JSON 格式字符串，格式如下：
 
 <table>
   <tr>
@@ -296,7 +296,7 @@ print(l[0]["title"])
   author = {Hai Liang Wang, Zhi Zhi Wu, Jia Yuan Lang},
   title = {派特心理：心理咨询问答语料库},
   year = 2020,
-  url = {https://github.com/chatopera/efa.corpus.osc},
+  url = {https://github.com/chatopera/efa-corpus-zh},
   urldate = {2020-04-22}
 }
 ```
@@ -305,7 +305,7 @@ print(l[0]["title"])
 
 语料库为主观标注，鉴于心理咨询的严肃性和重要性，语料制作时尽可能保证数据的准确性，但是无法保证 100%准确，对于因数据内容不当产生的后果，本团队不承担任何法律责任。
 
-Emotional First Aid Dataset, Chatopera Inc., <https://github.com/chatopera/efa.corpus.osc>, Apr. 22th, 2020
+Emotional First Aid Dataset, Chatopera Inc., <https://github.com/chatopera/efa-corpus-zh>, Apr. 22th, 2020
 
 ## 许可协议
 
