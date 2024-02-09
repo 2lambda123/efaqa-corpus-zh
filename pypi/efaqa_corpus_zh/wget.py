@@ -21,8 +21,7 @@ import sys, shutil, os
 import tempfile
 import math
 
-PY3K = sys.version_info >= (3, 0)
-if PY3K:
+if PY3K := sys.version_info >= (3, 0):
   import urllib.request as urllib
   import urllib.parse as urlparse
 else:
@@ -236,8 +235,7 @@ def bar_adaptive(current, total, width=80):
         # size field has a constant width (min == max)
         output += ("%s / %s" % (current, total)).rjust(min_width['size'])
 
-      selected = selected[1:]
-      if selected:
+      if selected := selected[1:]:
         output += ' '  # add field separator
 
     return output
@@ -275,8 +273,7 @@ def callback_progress(blocks, block_size, total_size, bar_function):
         current_size = __current_size
     else:
         current_size = min(blocks*block_size, total_size)
-    progress = bar_function(current_size, total_size, width)
-    if progress:
+    if progress := bar_function(current_size, total_size, width):
         sys.stdout.write("\r" + progress)
 
 class ThrowOnErrorOpener(urllib.FancyURLopener):
