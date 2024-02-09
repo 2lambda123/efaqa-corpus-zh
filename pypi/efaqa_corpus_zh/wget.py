@@ -278,6 +278,21 @@ def callback_progress(blocks, block_size, total_size, bar_function):
 
 class ThrowOnErrorOpener(urllib.FancyURLopener):
     def http_error_default(self, url, fp, errcode, errmsg, headers):
+        """"Raises an exception for any HTTP errors encountered during the request."
+        Parameters:
+            - url (str): The URL of the request.
+            - fp (file): The file object for the request.
+            - errcode (int): The error code returned by the request.
+            - errmsg (str): The error message returned by the request.
+            - headers (dict): The headers returned by the request.
+        Returns:
+            - None: This function does not return any value.
+        Processing Logic:
+            - Raises an exception with the error code and message.
+            - Used for handling HTTP errors in requests.
+            - Called when no specific error handler is provided.
+            - Only used for default error handling."""
+        
         raise Exception("%s: %s" % (errcode, errmsg))
 
 def download(url, out=None, bar=bar_adaptive):
